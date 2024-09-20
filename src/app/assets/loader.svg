@@ -1,8 +1,5 @@
-<div class="d-flex justify-content-center">
-  <img [src]="url" [alt]="alt" class="card-img-top animate__animated animate__fadeIn" (load)="onLoad()" [ngStyle]="{display: hasLoaded ? '' : 'none'}">
-  <div *ngIf="!hasLoaded">
-    <svg width="45" height="45" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">
-      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">
+<svg width="45" height="45" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">
+    <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">
         <circle cx="22" cy="22" r="6" stroke-opacity="0">
             <animate attributeName="r"
                  begin="1.5s" dur="3s"
@@ -41,6 +38,4 @@
                  repeatCount="indefinite" />
         </circle>
     </g>
-    </svg>
-  </div>
-</div>
+</svg>
