@@ -21,4 +21,8 @@ export class LazyImageComponent implements OnInit {
   onLoad(){
     this.hasLoaded = true;
   }
+
+  onCharge(){
+    this.hasLoaded = true;
+  }
 }
